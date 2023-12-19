@@ -1,0 +1,142 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.headerhero, .footer {
+    background-color: #1f2937;
+    padding: 12px 400px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.herosecondarytext, a {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 8px 0;
+    width: 500px;
+}
+
+button, .cta {
+    background-color: #3882F6;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 18px 0;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 60px 500px;
+}
+
+.quotetext {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 0;
+}
+
+.quoteauthor {
+    font-size: 22px;
+    font-weight: 700;
+    text-align: right;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    margin: 72px 0;
+    gap: 72px;
+}
+
+button {
+    border-radius: 8px;
+    font-weight: 900;
+    color: white;
+    padding: 8px 24px;
+}
+
+.topbutton {
+    border-style: none;
+}
+
+.bottombutton {
+    border-color: white;
+    border-style: solid;
+    max-height: 41px;
+}
+
+.lifestyleimages {
+    display: flex;
+    margin: 48px 0;
+}
+
+.randinfo {
+    text-align: center;
+    padding: 12px 450px;
+}
+
+.cta {
+    padding: 48px 0;
+    color: white;
+    margin: 72px 400px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.randinfo img {
+    border-radius: 8px;
+}
+
+.randinfo p {
+    max-width: 146px;
+    margin: auto;
+    margin-top: 6px;
+}
+
+.car, .mansion, .jet, .vacation {
+    flex: 1 1 0;
+} 
+
+.ctatext p {
+    margin: 0;
+}
+
+h3 {
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.footer {
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
